@@ -1,4 +1,3 @@
-audio.volume = 0.5;
 // Your sounds
 let sounds = [new Audio('./Fox/fox0a.dsp.wav'), 
                 new Audio('./Fox/fox0b.dsp.wav'), 
@@ -32,6 +31,7 @@ let sounds = [new Audio('./Fox/fox0a.dsp.wav'),
                 new Audio('./Fox/fox13.dsp.wav'),
                 new Audio('./Fox/fox15.dsp.wav'), 
                 new Audio('./Fox/fox20.dsp.wav')];
+sounds.volume = 0.5;
 let lastSound = 0; // Not necessary but we don't want overlapping tracks.
 // Listen for click on button (ID soundmachine)
 // pointerdown is more suitable so adjusted it.
