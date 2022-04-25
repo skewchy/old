@@ -1,3 +1,4 @@
+audio.volume = 0.5;
 // Your sounds
 let sounds = [new Audio('./Fox/fox0a.dsp.wav'), 
                 new Audio('./Fox/fox0b.dsp.wav'), 
